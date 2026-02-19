@@ -1,0 +1,3 @@
+# Wrangler local dev environment variables
+# Copy to .dev.vars and add your key — this replaces .env for Pages Functions local dev
+ANTHROPIC_API_KEY=your_api_key_here
