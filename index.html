@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BLACKMANOR OS v1.0</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div id="crt">
+    <div id="scanlines"></div>
+    <div id="screen">
+      <div id="terminal"></div>
+      <div id="input-row" class="hidden">
+        <span id="prompt-char">&gt; </span>
+        <input id="player-input" type="text" autocomplete="off" spellcheck="false" maxlength="64" />
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
